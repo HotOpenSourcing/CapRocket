@@ -6,8 +6,8 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "build": "vite build",
-    "start": "vite build && electron .",
+    "build": "node init && vite build",
+    "start": "node init && vite build && electron .",
     "test:export": "node scripts/test-export.cjs"
   },
   "dependencies": {
